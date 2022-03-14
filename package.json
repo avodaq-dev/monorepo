@@ -1,0 +1,12 @@
+{
+  "name": "Virtual Monorepo",
+  "version": "1.0.0",
+  "description": "Basic packages",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["Virtual", "Monorepo", "Typescript", "Angular", "Spreadsheet"],
+  "author": "Serkan Sipahi",
+  "license": "ISC"
+}
