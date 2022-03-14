@@ -1,5 +1,5 @@
 {
-  "name": "Virtual Monorepo",
+  "name": "virtual-monorepo",
   "version": "1.0.0",
   "description": "Basic packages",
   "main": "index.ts",
