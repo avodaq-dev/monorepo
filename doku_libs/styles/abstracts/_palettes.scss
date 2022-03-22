@@ -23,7 +23,7 @@ $white-90: rgba(white, 0.9);
 $white-96: rgba(white, 0.96);
 
 $avo-green: hsl(163, 71%, 53%); // #32dcab
-$avo-red: hsl(329, 100%, 45%); // #e80076
+$avo-pink: hsl(329, 100%, 45%); // #e80076
 $avo-dark-blue-dark: hsl(197, 100%, 8%); // #002a3a
 $avo-dark-blue: hsl(197, 100%, 11%); // #002a3a
 $avo-dark-blue-light: hsl(197, 100%, 14%);
@@ -44,7 +44,7 @@ $avo-green-palette: (
         900: hsl(158, 100%, 20%)
 );
 
-$avo-red-palette: (
+$avo-pink-palette: (
         50: hsl(329, 90%, 94%),
         100: hsl(328, 91%, 85%),
         200: hsl(329, 92%, 76%),
@@ -52,7 +52,7 @@ $avo-red-palette: (
         400: hsl(329, 92%, 59%),
         500: hsl(329, 92%, 52%),
         600: hsl(327, 88%, 48%),
-        'avo-red': hsl(329, 100%, 45%),
+        'avo-pink': hsl(329, 100%, 45%),
         700: hsl(325, 88%, 43%),
         800: hsl(323, 89%, 38%),
         900: hsl(317, 91%, 29%),
