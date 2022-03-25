@@ -15,7 +15,12 @@ nav.navbar:after {
   background: linear-gradient(90deg, #{map.get(p.$avo-green-palette, 400)} 0%, #8A5CE6 50%, #{map.get(p.$avo-pink-palette, 700)} 100%);
 }
 
-
-svg {
-  display: inline-block;
+// dirty bugfix to kill tailwind css-seset for svg
+.navbar__items,
+.footer__items {
+  svg {
+    display: inline-block !important;
+    vertical-align: inherit !important;
+  }
 }
+
