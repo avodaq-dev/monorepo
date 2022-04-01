@@ -16,8 +16,8 @@ nav.navbar:after {
 }
 
 // dirty bugfix to kill tailwind css-seset for svg
-.navbar__items,
-.footer__items {
+.navbar__item,
+.footer__item {
   svg {
     display: inline-block !important;
     vertical-align: inherit !important;
