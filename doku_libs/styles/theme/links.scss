@@ -1,10 +1,6 @@
 @use 'sass:map';
 @use '../abstracts/index' as p;
 
-a {
-  color: #{map.get(p.$avo-warm-grey-palette, 900)};
-}
-
 a:hover {
   /* autoprefixer: ignore next */
   text-decoration: none;
