@@ -1,8 +1,17 @@
 @use 'sass:map';
 @use '../abstracts/index' as p;
 
+p {
+  a {
+    /* autoprefixer: ignore next */
+    text-decoration: underline;
+  }
+
+}
+
 a:hover {
   /* autoprefixer: ignore next */
   text-decoration: none;
 }
+
 

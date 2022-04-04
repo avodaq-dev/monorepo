@@ -12,7 +12,7 @@ nav.navbar:before {
   height: 4px;
   bottom: 0;
   left: 0;
-  background: linear-gradient(90deg, #{map.get(p.$avo-green-palette, 400)} 0%, #8A5CE6 50%, #{map.get(p.$avo-pink-palette, 700)} 100%);
+  background: linear-gradient(90deg, #{map.get(p.$avo-pink-palette, "pink")} 0%, #a855f7 50%, #{map.get(p.$avo-green-palette, 'green')} 100%);
 }
 
 // dirty bugfix to kill tailwind css-reset for svg
