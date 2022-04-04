@@ -31,14 +31,11 @@
 
 // colors
 :root {
-  //--ifm-navbar-background-color: #{map.get(p.$avo-green-palette, 50)};
-  //--ifm-background-color: #{map.get(p.$avo-warm-grey-palette, 50)} !important;
-  //--ifm-footer-background-color: #{map.get(p.$avo-warm-grey-palette, 100)};
+  --ifm-footer-background-color: transparent;
 }
 
 // lighter colors for dark
 [data-theme='dark'] {
   --ifm-navbar-background-color: #{p.$avo-dark-blue};
   --ifm-background-color: #{p.$avo-dark-blue} !important;
-  --ifm-footer-background-color: #{p.$avo-dark-blue-dark};
 }
