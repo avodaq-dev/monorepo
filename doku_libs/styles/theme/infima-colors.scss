@@ -32,10 +32,13 @@
 // colors
 :root {
   --ifm-footer-background-color: transparent;
+  --ifm-footer-color: var(--ifm-color-primary);
+  --ifm-color-content: #{p.$avo-dark-blue};
+  --ifm-footer-link-color: var(--ifm-color-content);
 }
 
-// lighter colors for dark
 [data-theme='dark'] {
   --ifm-navbar-background-color: #{p.$avo-dark-blue};
   --ifm-background-color: #{p.$avo-dark-blue} !important;
+  --ifm-color-content: white;
 }
