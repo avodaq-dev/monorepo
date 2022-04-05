@@ -35,6 +35,7 @@
   --ifm-footer-color: var(--ifm-color-primary);
   --ifm-color-content: #{p.$avo-dark-blue};
   --ifm-footer-link-color: var(--ifm-color-content);
+  --ifm-link-hover-decoration: none;
 }
 
 [data-theme='dark'] {

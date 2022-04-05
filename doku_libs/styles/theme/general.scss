@@ -1,26 +1,9 @@
-@use 'sass:map';
-@use '../abstracts/index' as p;
 
 html {
   scroll-behavior: smooth;
 }
 
-nav.navbar:before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 4px;
-  bottom: 0;
-  left: 0;
-  background: linear-gradient(90deg, #{map.get(p.$avo-pink-palette, "pink")} 0%, #a855f7 50%, #{map.get(p.$avo-green-palette, 'green')} 100%);
-}
 
-// dirty bugfix to kill tailwind css-reset for svg
-.navbar__item,
-.footer__item {
-  svg {
-    display: inline-block !important;
-    vertical-align: inherit !important;
-  }
-}
+
+
 
