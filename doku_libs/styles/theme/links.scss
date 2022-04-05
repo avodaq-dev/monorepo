@@ -2,21 +2,23 @@
 @use '../abstracts/index' as p;
 
 p a {
-    position: relative;
-    &:before {
-      content: '';
-      position: absolute;
-      inset-block-end: 0px;
-      inset-inline-start: 0;
-      inset-inline-end: 0;
-      block-size: 2px;
-      background-color: white;
-      transform-origin: bottom left;
-      transform: scaleX(1);
-      transition: transform 0.2s ease;
-    }
-    &:hover:before {
-      transform-origin: bottom right;
-      transform: scaleX(0);
-    }
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    inset-block-end: -3px;
+    inset-inline-start: 0;
+    inset-inline-end: 0;
+    block-size: 2px;
+    background-color: white;
+    transform-origin: bottom left;
+    transform: scaleX(1);
+    transition: transform 0.2s ease;
   }
+
+  &:hover:before {
+    transform-origin: bottom right;
+    transform: scaleX(0);
+  }
+}
