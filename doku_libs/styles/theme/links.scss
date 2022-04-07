@@ -14,7 +14,7 @@ p a {
     background-color: white;
     transform-origin: bottom left;
     transform: scaleX(1);
-    transition: transform 0.2s ease;
+    transition: transform 0.15s ease;
   }
 
   &:hover:before {
