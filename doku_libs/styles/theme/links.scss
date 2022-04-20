@@ -3,7 +3,6 @@
 
 p a {
   position: relative;
-
   &:before {
     content: '';
     position: absolute;
@@ -20,5 +19,11 @@ p a {
   &:hover:before {
     transform-origin: bottom right;
     transform: scaleX(0);
+  }
+}
+
+p a.underline-thin {
+  &:before {
+    block-size: 1px;
   }
 }
