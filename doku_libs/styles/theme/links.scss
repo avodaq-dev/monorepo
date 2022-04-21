@@ -1,6 +1,9 @@
 @use 'sass:map';
 @use '../abstracts/index' as p;
 
+
+
+
 p a {
   position: relative;
   &:before {
@@ -25,5 +28,11 @@ p a {
 p a.underline-thin {
   &:before {
     block-size: 1px;
+  }
+}
+
+html[data-theme='light'] p a.underline-thin {
+  &:before {
+    background-color: black;
   }
 }
