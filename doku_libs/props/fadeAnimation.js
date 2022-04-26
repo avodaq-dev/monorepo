@@ -1,7 +1,7 @@
 import {keyframes} from "@emotion/react";
 
 export const fadeProps = {
-    duration: 750,
+    duration: 650,
     damping: 0.25,
     cascade: true,
     fraction: 0,
@@ -10,7 +10,7 @@ export const fadeProps = {
 
 export const fadeUpProps = {
     direction: "up",
-    duration: 750,
+    duration: 650,
     damping: 0.25,
     cascade: true,
     fraction: 0,
