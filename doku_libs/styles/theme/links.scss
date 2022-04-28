@@ -25,14 +25,8 @@ p a {
   }
 }
 
-p a.underline-thin {
-  &:before {
-    block-size: 1px;
-  }
-}
-
-html[data-theme='light'] p a.underline-thin {
-  &:before {
-    background-color: black;
-  }
-}
+//p a.underline-thin {
+//  &:before {
+//    block-size: 1px;
+//  }
+//}
