@@ -13,7 +13,7 @@ p a {
     inset-inline-start: 0;
     inset-inline-end: 0;
     block-size: 2px;
-    background-color: white;
+    background-color: var(--ifm-font-color-base);
     transform-origin: bottom left;
     transform: scaleX(1);
     transition: transform 0.15s ease;
@@ -25,8 +25,14 @@ p a {
   }
 }
 
-//p a.underline-thin {
-//  &:before {
-//    block-size: 1px;
-//  }
-//}
+p a.underline-thin {
+  &:before {
+    block-size: 1px;
+  }
+}
+
+p a.underline-white {
+  &:before {
+    background-color: white;
+  }
+}

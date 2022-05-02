@@ -43,3 +43,19 @@
   --ifm-background-color: #{p.$avo-dark-blue-light} !important;
   --ifm-color-content: white;
 }
+
+:root {
+  --opacity-36: #{p.$black-36};
+  --opacity-24: #{p.$black-24};
+  --opacity-16: #{p.$black-16};
+  --opacity-6: #{p.$black-6};
+  --opacity-4: #{p.$black-4};
+}
+
+[data-theme='dark'] {
+  --opacity-36: #{p.$white-36};
+  --opacity-24: #{p.$white-24};
+  --opacity-16: #{p.$white-16};
+  --opacity-6: #{p.$white-6};
+  --opacity-4: #{p.$white-4};
+}
