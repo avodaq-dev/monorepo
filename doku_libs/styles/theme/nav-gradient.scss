@@ -1,7 +1,8 @@
 @use 'sass:map';
 @use '../abstracts/index' as p;
 
-nav.navbar:before {
+nav.navbar:before,
+.re-gradient {
   content: '';
   position: absolute;
   width: 100%;
